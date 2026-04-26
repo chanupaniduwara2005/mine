@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💕 A Little Something For You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--                  LOADING SCREEN                 -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div id="loading-screen">
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <div class="loading-content">
+      <div class="welcome-text">
+        <span class="welcome-line1">✨ Welcome ✨</span>
+        <span class="welcome-line2">My Madam 🌸</span>
+      </div>
+
+      <!-- FLOATING PANDA FACES -->
+      <div class="panda-faces-container" id="pandaFacesContainer">
+
+        <!-- Panda face 1: top-left area -->
+        <div class="panda-face pf-1">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <circle cx="36" cy="52" r="5.5" fill="white"/>
+            <circle cx="64" cy="52" r="5.5" fill="white"/>
+            <circle cx="38" cy="53" r="3" fill="#111"/>
+            <circle cx="66" cy="53" r="3" fill="#111"/>
+            <circle cx="39" cy="51" r="1" fill="white"/>
+            <circle cx="67" cy="51" r="1" fill="white"/>
+            <ellipse cx="50" cy="63" rx="5" ry="3.5" fill="#e87c9e"/>
+            <path d="M42 70 Q50 77 58 70" fill="none" stroke="#cc6688" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="30" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+            <ellipse cx="70" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <!-- Panda face 2: top-right area, with flower -->
+        <div class="panda-face pf-2">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="65" height="65">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <!-- Flower on ear -->
+            <circle cx="86" cy="10" r="8" fill="#FF6F91" opacity="0.95"/>
+            <circle cx="86" cy="10" r="4" fill="#FFE5ED"/>
+            <circle cx="78" cy="7" r="6" fill="#FF8FA3" opacity="0.85"/>
+            <circle cx="94" cy="7" r="6" fill="#FF8FA3" opacity="0.85"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <circle cx="36" cy="52" r="5.5" fill="white"/>
+            <circle cx="64" cy="52" r="5.5" fill="white"/>
+            <circle cx="37" cy="53" r="3" fill="#111"/>
+            <circle cx="65" cy="53" r="3" fill="#111"/>
+            <circle cx="38" cy="51" r="1" fill="white"/>
+            <circle cx="66" cy="51" r="1" fill="white"/>
+            <!-- Lashes -->
+            <line x1="29" y1="44" x2="32" y2="40" stroke="#333" stroke-width="1.5"/>
+            <line x1="36" y1="42" x2="37" y2="38" stroke="#333" stroke-width="1.5"/>
+            <ellipse cx="50" cy="63" rx="5" ry="3.5" fill="#e87c9e"/>
+            <path d="M42 70 Q50 77 58 70" fill="none" stroke="#cc6688" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="30" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+            <ellipse cx="70" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <!-- Panda face 3: bottom-left, sleepy -->
+        <div class="panda-face pf-3">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="70" height="70">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <!-- Sleepy eyes (curved lines) -->
+            <path d="M30 52 Q36 46 42 52" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <path d="M58 52 Q64 46 70 52" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <ellipse cx="50" cy="63" rx="5" ry="3.5" fill="#e87c9e"/>
+            <path d="M42 70 Q50 76 58 70" fill="none" stroke="#cc6688" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="30" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+            <ellipse cx="70" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+            <!-- Zzz -->
+            <text x="72" y="38" font-size="12" fill="#D97B93" font-family="Nunito,sans-serif" font-weight="800">z</text>
+            <text x="80" y="30" font-size="9" fill="#D97B93" font-family="Nunito,sans-serif" font-weight="800">z</text>
+          </svg>
+        </div>
+
+        <!-- Panda face 4: center-right, happy -->
+        <div class="panda-face pf-4">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="90" height="90">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <circle cx="36" cy="52" r="5.5" fill="white"/>
+            <circle cx="64" cy="52" r="5.5" fill="white"/>
+            <circle cx="37" cy="51" r="3" fill="#111"/>
+            <circle cx="65" cy="51" r="3" fill="#111"/>
+            <circle cx="38" cy="50" r="1.2" fill="white"/>
+            <circle cx="66" cy="50" r="1.2" fill="white"/>
+            <ellipse cx="50" cy="63" rx="5" ry="3.5" fill="#e87c9e"/>
+            <!-- Big smile -->
+            <path d="M40 70 Q50 80 60 70" fill="none" stroke="#cc6688" stroke-width="2.5" stroke-linecap="round"/>
+            <ellipse cx="28" cy="67" rx="9" ry="6" fill="#ffb3c6" opacity="0.65"/>
+            <ellipse cx="72" cy="67" rx="9" ry="6" fill="#ffb3c6" opacity="0.65"/>
+          </svg>
+        </div>
+
+        <!-- Panda face 5: top-center, tiny -->
+        <div class="panda-face pf-5">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="55" height="55">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <circle cx="36" cy="53" r="5" fill="white"/>
+            <circle cx="64" cy="53" r="5" fill="white"/>
+            <circle cx="37" cy="54" r="2.8" fill="#111"/>
+            <circle cx="65" cy="54" r="2.8" fill="#111"/>
+            <ellipse cx="50" cy="64" rx="4.5" ry="3" fill="#e87c9e"/>
+            <path d="M43 71 Q50 77 57 71" fill="none" stroke="#cc6688" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="30" cy="69" rx="7" ry="4.5" fill="#ffb3c6" opacity="0.6"/>
+            <ellipse cx="70" cy="69" rx="7" ry="4.5" fill="#ffb3c6" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <!-- Panda face 6: bottom-right, winking -->
+        <div class="panda-face pf-6">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="75" height="75">
+            <circle cx="18" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="82" cy="22" r="16" fill="#1a1a1a"/>
+            <circle cx="18" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <circle cx="82" cy="22" r="8" fill="#ffb3c6" opacity="0.55"/>
+            <ellipse cx="50" cy="58" rx="36" ry="34" fill="white" stroke="#333" stroke-width="2"/>
+            <ellipse cx="36" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <ellipse cx="64" cy="52" rx="11" ry="10" fill="#1a1a1a"/>
+            <!-- Left eye normal -->
+            <circle cx="36" cy="52" r="5.5" fill="white"/>
+            <circle cx="37" cy="53" r="3" fill="#111"/>
+            <circle cx="38" cy="51" r="1" fill="white"/>
+            <!-- Right eye wink -->
+            <path d="M58 52 Q64 48 70 52" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <ellipse cx="50" cy="63" rx="5" ry="3.5" fill="#e87c9e"/>
+            <path d="M42 70 Q50 77 58 70" fill="none" stroke="#cc6688" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="30" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+            <ellipse cx="70" cy="68" rx="8" ry="5" fill="#ffb3c6" opacity="0.6"/>
+          </svg>
+        </div>
+
+      </div>
+
+      <!-- Loading bar -->
+      <div class="loading-bar-wrap">
+        <div class="loading-bar" id="loadingBar"></div>
+      </div>
+      <div class="loading-label">Loading love... 💖</div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--                  MAIN CONTENT                   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div id="main-content" class="hidden">
+
+    <!-- Floating hearts background -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Question Pages -->
+    <div class="pages-container">
+
+      <!-- PAGE 1 -->
+      <div class="question-page active" id="page1">
+        <div class="page-decoration top-left">🌸</div>
+        <div class="page-decoration top-right">✨</div>
+        <div class="page-decoration bottom-left">💕</div>
+        <div class="page-decoration bottom-right">🌺</div>
+
+        <div class="question-card">
+          <div class="question-number">Question 1 of 5</div>
+          <div class="question-emoji">🐼</div>
+          <h2 class="question-text">Am I the most adorable panda you've ever seen? 🎋</h2>
+          <div class="answers-row">
+            <button class="answer-btn correct-btn" id="q1-yes" data-correct="true" onclick="handleAnswer(1, true)">
+              <span class="btn-icon">🥰</span>
+              <span>Yes!</span>
+            </button>
+            <button class="answer-btn wrong-btn" id="q1-no" data-correct="false" onmouseenter="runAway(this)" onclick="preventWrong(event)">
+              <span class="btn-icon">😅</span>
+              <span>No</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="page-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <!-- PAGE 2 -->
+      <div class="question-page" id="page2">
+        <div class="page-decoration top-left">💖</div>
+        <div class="page-decoration top-right">🌸</div>
+        <div class="page-decoration bottom-left">✨</div>
+        <div class="page-decoration bottom-right">🦋</div>
+
+        <div class="question-card">
+          <div class="question-number">Question 2 of 5</div>
+          <div class="question-emoji">💝</div>
+          <h2 class="question-text">Do you want to cuddle with me forever? 🤗</h2>
+          <div class="answers-row">
+            <button class="answer-btn correct-btn" id="q2-yes" data-correct="true" onclick="handleAnswer(2, true)">
+              <span class="btn-icon">💞</span>
+              <span>Forever!</span>
+            </button>
+            <button class="answer-btn wrong-btn" id="q2-no" data-correct="false" onmouseenter="runAway(this)" onclick="preventWrong(event)">
+              <span class="btn-icon">🙈</span>
+              <span>No</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="page-dots">
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <!-- PAGE 3 -->
+      <div class="question-page" id="page3">
+        <div class="page-decoration top-left">🌺</div>
+        <div class="page-decoration top-right">💕</div>
+        <div class="page-decoration bottom-left">🦋</div>
+        <div class="page-decoration bottom-right">✨</div>
+
+        <div class="question-card">
+          <div class="question-number">Question 3 of 5</div>
+          <div class="question-emoji">🌙</div>
+          <h2 class="question-text">Will you be my special person always? 💫</h2>
+          <div class="answers-row">
+            <button class="answer-btn correct-btn" id="q3-yes" data-correct="true" onclick="handleAnswer(3, true)">
+              <span class="btn-icon">💗</span>
+              <span>Always!</span>
+            </button>
+            <button class="answer-btn wrong-btn" id="q3-no" data-correct="false" onmouseenter="runAway(this)" onclick="preventWrong(event)">
+              <span class="btn-icon">🤭</span>
+              <span>No</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="page-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <!-- PAGE 4 -->
+      <div class="question-page" id="page4">
+        <div class="page-decoration top-left">🍓</div>
+        <div class="page-decoration top-right">✨</div>
+        <div class="page-decoration bottom-left">💕</div>
+        <div class="page-decoration bottom-right">💫</div>
+
+        <div class="question-card">
+          <div class="question-number">Question 4 of 5</div>
+          <div class="question-emoji">😘</div>
+          <h2 class="question-text">Do you promise to let me steal kisses every day? 💋</h2>
+          <div class="answers-row">
+            <button class="answer-btn correct-btn" id="q4-yes" data-correct="true" onclick="handleAnswer(4, true)">
+              <span class="btn-icon">🤭</span>
+              <span>I promise!</span>
+            </button>
+            <button class="answer-btn wrong-btn" id="q4-no" data-correct="false" onmouseenter="runAway(this)" onclick="preventWrong(event)">
+              <span class="btn-icon">🙅‍♂️</span>
+              <span>No</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="page-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <!-- PAGE 5 -->
+      <div class="question-page" id="page5">
+        <div class="page-decoration top-left">💖</div>
+        <div class="page-decoration top-right">🤪</div>
+        <div class="page-decoration bottom-left">✨</div>
+        <div class="page-decoration bottom-right">🌸</div>
+
+        <div class="question-card">
+          <div class="question-number">Question 5 of 5</div>
+          <div class="question-emoji">🤪</div>
+          <h2 class="question-text">Are you ready for a lifetime of my silly jokes and endless love? 💕</h2>
+          <div class="answers-row">
+            <button class="answer-btn correct-btn" id="q5-yes" data-correct="true" onclick="handleAnswer(5, true)">
+              <span class="btn-icon">🥰</span>
+              <span>Ready!</span>
+            </button>
+            <button class="answer-btn wrong-btn" id="q5-no" data-correct="false" onmouseenter="runAway(this)" onclick="preventWrong(event)">
+              <span class="btn-icon">🙈</span>
+              <span>No</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="page-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+        </div>
+      </div>
+
+      <!-- FINAL PAGE -->
+      <div class="question-page" id="pageFinal">
+        <div class="confetti-container" id="confettiContainer"></div>
+
+        <div class="final-card">
+          <div class="final-pandas">
+            <div class="final-panda-left">🐼</div>
+            <div class="final-heart">💕</div>
+            <div class="final-panda-right">🐼</div>
+          </div>
+          <h1 class="final-title">I knew it! 🥰</h1>
+          <p class="final-message">
+            You are my favourite person in the whole wide world. Every time I see your smile, my heart skips a beat. Thank you for being so perfectly you, and for bringing so much light and happiness into my life. I wouldn't trade our moments for anything. 💖
+          </p>
+          <div class="final-emoji-row">✨ 🌸 💕 🌸 ✨</div>
+          <div class="final-btns-row">
+            <button class="continue-btn" onclick="goToTulip()">Continue 💌</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TULIP PAGE -->
+      <div class="question-page" id="pageTulip">
+        <div class="tulip-page-inner">
+
+          <h1 class="tulip-heading">You're My Forever Tulip 🌷</h1>
+
+          <div class="tulip-stage" id="tulipStage">
+            <svg class="tulip-svg" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="pgA" x1="50%" y1="100%" x2="50%" y2="0%">
+                  <stop offset="0%" stop-color="#C2185B"/>
+                  <stop offset="55%" stop-color="#E91E8C"/>
+                  <stop offset="100%" stop-color="#FF8FA3"/>
+                </linearGradient>
+                <linearGradient id="pgB" x1="50%" y1="100%" x2="50%" y2="0%">
+                  <stop offset="0%" stop-color="#AD1457"/>
+                  <stop offset="55%" stop-color="#F06292"/>
+                  <stop offset="100%" stop-color="#FFB3C6"/>
+                </linearGradient>
+                <radialGradient id="sgC" cx="40%" cy="40%" r="60%">
+                  <stop offset="0%" stop-color="#FFF176"/>
+                  <stop offset="100%" stop-color="#F9A825"/>
+                </radialGradient>
+                <linearGradient id="stG" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#2E7D32"/>
+                  <stop offset="100%" stop-color="#81C784"/>
+                </linearGradient>
+              </defs>
+
+              <!-- Ground soil -->
+              <ellipse class="t-ground" cx="100" cy="290" rx="60" ry="12"/>
+
+              <!-- Stem drawn via stroke-dashoffset -->
+              <path class="t-stem"
+                d="M100 287 Q97 240 99 190 Q101 150 100 107"
+                stroke="url(#stG)" stroke-width="9"
+                fill="none" stroke-linecap="round"/>
+
+              <!-- Left Leaf -->
+              <path class="t-leaf t-leaf-l"
+                d="M98 205 C70 190 42 162 50 132 C68 150 87 179 98 205Z"
+                fill="#4CAF50"/>
+
+              <!-- Right Leaf -->
+              <path class="t-leaf t-leaf-r"
+                d="M102 160 C130 145 160 117 154 87 C136 104 117 135 102 160Z"
+                fill="#66BB6A"/>
+
+              <!--
+                PETALS — all 6 share base at (100,105).
+                Bud  → rotate(0deg) scaleX(0.08) scaleY(0.45)  [thin slivers pointing up]
+                Bloom → rotate(N*60deg) scaleX(1) scaleY(1)     [spread as full flower]
+                transform-origin is set to 100px 105px in CSS.
+              -->
+
+              <!-- Outer layer petals: 0°, 120°, 240° -->
+              <g class="t-pg t-pg-o1">
+                <path d="M100 105 C84 92,80 62,100 40 C120 62,116 92,100 105Z" fill="url(#pgA)"/>
+              </g>
+              <g class="t-pg t-pg-o2">
+                <path d="M100 105 C84 92,80 62,100 40 C120 62,116 92,100 105Z" fill="url(#pgA)"/>
+              </g>
+              <g class="t-pg t-pg-o3">
+                <path d="M100 105 C84 92,80 62,100 40 C120 62,116 92,100 105Z" fill="url(#pgA)"/>
+              </g>
+
+              <!-- Inner layer petals: 60°, 180°, 300° (shorter, lighter) -->
+              <g class="t-pg t-pg-i1">
+                <path d="M100 105 C87 93,85 68,100 50 C115 68,113 93,100 105Z" fill="url(#pgB)"/>
+              </g>
+              <g class="t-pg t-pg-i2">
+                <path d="M100 105 C87 93,85 68,100 50 C115 68,113 93,100 105Z" fill="url(#pgB)"/>
+              </g>
+              <g class="t-pg t-pg-i3">
+                <path d="M100 105 C87 93,85 68,100 50 C115 68,113 93,100 105Z" fill="url(#pgB)"/>
+              </g>
+
+              <!-- BUD OVERLAY — on top of petals, fades when bloom opens -->
+              <g class="t-bud-cover">
+                <ellipse cx="100" cy="74" rx="17" ry="32" fill="url(#pgA)"/>
+                <ellipse cx="100" cy="74" rx="9"  ry="22" fill="url(#pgB)" opacity="0.65"/>
+                <line x1="98"  y1="106" x2="94"  y2="50" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+                <line x1="102" y1="106" x2="106" y2="50" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+              </g>
+
+              <!-- Stamen centre (appears after petals open) -->
+              <circle class="t-stamen"       cx="100" cy="99" r="14" fill="url(#sgC)"/>
+              <circle class="t-stamen-inner" cx="100" cy="99" r="7"  fill="#F57F17"/>
+              <circle class="t-stamen-dot"   cx="100" cy="97" r="3"  fill="#FFF9C4"/>
+
+              <!-- Sparkles (appear after full bloom) -->
+              <text class="t-sparkle t-sp-1" x="138" y="34"  font-size="14">✨</text>
+              <text class="t-sparkle t-sp-2" x="46"  y="40"  font-size="12">💕</text>
+              <text class="t-sparkle t-sp-3" x="150" y="72"  font-size="10">🌸</text>
+            </svg>
+          </div>
+
+          <p class="tulip-message">
+            Just like a tulip blooms every spring, bringing color to the world, my love for you grows stronger and more vibrant with every single day that passes. You nurture my soul and make my life beautiful just by being in it.<br/>
+            <span class="tulip-msg-accent">You are my most precious bloom, now and always. 💖</span>
+          </p>
+
+          <div class="tulip-btns-row">
+            <button class="continue-btn" onclick="goToPhotos()">Continue 💌</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHOTOS PAGE -->
+      <div class="question-page" id="pagePhotos">
+        <div class="floating-hearts" id="floatingHearts2"></div>
+
+        <!-- Scattered polaroid photos -->
+        <div class="photos-scatter" id="photosScatter">
+          <div class="p-frame p-frame-1" style="--rot:-13deg">
+            <img src="photos/WhatsApp Image 2025-08-07 at 15.31.56.jpg" alt="💕" class="p-img" />
+            <div class="p-label">💕</div>
+          </div>
+          <div class="p-frame p-frame-2" style="--rot:8deg">
+            <img src="photos/DSC09733.jpg" alt="🌸" class="p-img" />
+            <div class="p-label">🌸</div>
+          </div>
+          <div class="p-frame p-frame-3" style="--rot:-6deg">
+            <img src="photos/DSC04963.jpg" alt="✨" class="p-img" />
+            <div class="p-label">✨</div>
+          </div>
+          <div class="p-frame p-frame-4" style="--rot:14deg">
+            <img src="photos/DSC00831.jpg" alt="💖" class="p-img" />
+            <div class="p-label">💖</div>
+          </div>
+        </div>
+
+        <!-- Love message overlay (appears after photos settle) -->
+        <div class="photos-msg" id="photosMsg">
+          <div class="photos-msg-inner">
+            <div class="photos-msg-emoji">🥰</div>
+            <h2 class="photos-msg-title">Every Moment With You</h2>
+            <p class="photos-msg-text">
+              Every single photo we've taken holds a beautiful memory that I cherish and never want to forget. But the absolute best part isn't the memory itself—it's that I get to keep making new ones because you're still right here with me, holding my hand. 💕
+            </p>
+            <p class="photos-msg-sub">You make every single day of my life worth remembering. 🌸</p>
+            <button class="continue-btn" onclick="goToSinglePhoto()">Next 💌</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- SINGLE PHOTO PAGE -->
+      <div class="question-page" id="pageSinglePhoto">
+        <div class="single-photo-wrap">
+          <div class="p-frame single-frame">
+            <img src="photos/both.jpeg" alt="Us" class="p-img" />
+            <div class="p-label">Forever 💕</div>
+          </div>
+        </div>
+        
+        <div class="message-card">
+          <h2 class="photos-msg-title" style="margin-bottom: 15px;">I Want to Live With You Forever</h2>
+          <p class="final-message">
+            When I look at us together, I know with absolute certainty exactly where I belong. You are my safe place, my peace, and my greatest adventure. I want to wake up next to you every morning and fall asleep next to you every night. My true home is wherever you are, my love. 💖
+          </p>
+          <div class="final-btns-row" style="margin-top: 20px;">
+            <button class="continue-btn" onclick="goToSorry()">Next 💌</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SORRY PAGE -->
+      <div class="question-page" id="pageSorry">
+        <div class="page-decoration top-left">🥺</div>
+        <div class="page-decoration top-right">🌸</div>
+        <div class="page-decoration bottom-left">🌸</div>
+        <div class="page-decoration bottom-right">🥺</div>
+
+        <div class="question-card">
+          <div class="question-emoji">🥺</div>
+          <h2 class="question-text">I'm so sorry...</h2>
+          <p class="final-message" style="margin-top: 15px;">
+            I want to sincerely apologize from the bottom of my heart for any mad things I've done.<br/>
+            I know I can be foolish and I keep doing such dumb work to make you mad sometimes. Please know that I never, ever mean to hurt you or upset you. You mean the world to me, and I promise I will keep trying my hardest to be better for you every single day. 🌸
+          </p>
+          <div class="final-btns-row" style="margin-top: 25px;">
+            <button class="continue-btn" onclick="goToTrueLove()">Forgive me? 💕</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRUE LOVE PAGE -->
+      <div class="question-page" id="pageTrueLove">
+        <div class="confetti-container" id="confettiContainer2"></div>
+
+        <div class="final-card">
+          <div class="final-pandas">
+            <div class="final-panda-left">🐼</div>
+            <div class="final-heart">💍</div>
+            <div class="final-panda-right">🐼</div>
+          </div>
+          <h1 class="final-title">My True Love</h1>
+          <p class="final-message">
+            You are my everything. You are my today, all of my tomorrows, and my forever. No matter what happens, my heart belongs entirely to you. Thank you for loving me, for putting up with me, and for being the most incredible person I know. I love you more than words could ever possibly say. 💖
+          </p>
+          <div class="final-emoji-row">✨ 🌸 💕 🌸 ✨</div>
+          <div class="final-btns-row">
+            <!-- Experience ends here -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
